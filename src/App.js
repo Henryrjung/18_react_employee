@@ -41,7 +41,7 @@ class App extends Component {
             return (
               <Table
                 key={id}
-                image={employee.picture.medium}
+                image={employee.picture.large}
                 name={employee.name}
                 email={employee.email}
                 phone={employee.phone}

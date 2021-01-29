@@ -3,15 +3,17 @@
     max-width: 1500px;
     min-height: 80px;
     display: grid;
-    margin: 16px auto;
+    margin: 16px ;
     grid-template-columns: 200px 20rem 20rem 250px;
     justify-content: space-between;
     padding: 10px;
+    border-radius: 200px;
   }
   
   .image {
     grid-column: 1;
     justify-self: center;
+    border-radius: 200px;
   }
   
   .name {
