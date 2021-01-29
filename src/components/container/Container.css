@@ -1,0 +1,29 @@
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:  #303030;
+    display: grid;
+    grid-template-columns: 200px 20rem 20rem 250px;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .outer-container .name {
+    grid-column: 2;
+  }
+  
+  .outer-container .email {
+    grid-column: 3;
+  }
+  
+  .outer-container .number {
+    grid-column: 4;
+  }
+  
+  .inner-container {
+    grid-column: 1 5;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+  }

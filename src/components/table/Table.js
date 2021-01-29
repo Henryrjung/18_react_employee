@@ -1,7 +1,6 @@
 import React from 'react';
-import './styles.css';
 
-const Card = (props) => {
+const Table = (props) => {
   return (
     <div className={`card ${props.color}`}>
       <img className='image' src={props.image} alt={props.name} />
@@ -12,4 +11,4 @@ const Card = (props) => {
   );
 }
 
-export default Card;
+export default Table;
