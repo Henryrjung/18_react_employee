@@ -1,26 +1,65 @@
-.outer-container {
-    max-width: 1200px;
+.container {
+    max-width: 1500px;
     margin: 0 auto;
-    background-color:  #303030;
+    background-color: #303030;
     display: grid;
     grid-template-columns: 200px 20rem 20rem 250px;
-    justify-content: flex-start;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
   }
-
-  .outer-container .name {
+  
+ .employeeName {
     grid-column: 2;
+    margin-top: 25px;
+    align-items: center;
+    background-color:  #fff;
+    border-radius: 290486px;
+    display: inline-flex;
+    font-size: 1.25rem;
+    height: 2em;
+    justify-content: center;
+    margin-right: 1.5rem;
+    min-width: 2.5em;
+    padding: .25rem .5rem;
+    text-align: center;
+    vertical-align: top;
   }
   
-  .outer-container .email {
+  .employeeEmail {
     grid-column: 3;
+    margin-top: 25px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 290486px;
+    display: inline-flex;
+    font-size: 1.25rem;
+    height: 2em;
+    justify-content: center;
+    margin-right: 1.5rem;
+    min-width: 2.5em;
+    padding: .25rem .5rem;
+    text-align: center;
+    vertical-align: top;
   }
   
-  .outer-container .number {
+ .employeeNumber {
     grid-column: 4;
+    margin-top: 25px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 290486px;
+    display: inline-flex;
+    font-size: 1.25rem;
+    height: 2em;
+    justify-content: center;
+    margin-right: 1.5rem;
+    min-width: 2.5em;
+    padding: .25rem .5rem;
+    text-align: center;
+    vertical-align: top;
   }
   
-  .inner-container {
+  .childContainer {
     grid-column: 1 5;
     margin: 0 auto;
     flex-direction: row;
