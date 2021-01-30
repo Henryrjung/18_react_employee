@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.cf085d1b.chunk.css",
-    "main.js": "/my-app/static/js/main.cd0d561c.chunk.js",
-    "main.js.map": "/my-app/static/js/main.cd0d561c.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.1b7ecd82.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.1b7ecd82.js.map",
-    "static/js/2.659824ef.chunk.js": "/my-app/static/js/2.659824ef.chunk.js",
-    "static/js/2.659824ef.chunk.js.map": "/my-app/static/js/2.659824ef.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.cf085d1b.chunk.css.map": "/my-app/static/css/main.cf085d1b.chunk.css.map",
-    "static/js/2.659824ef.chunk.js.LICENSE.txt": "/my-app/static/js/2.659824ef.chunk.js.LICENSE.txt"
+    "main.css": "/18_react_employee/static/css/main.cf085d1b.chunk.css",
+    "main.js": "/18_react_employee/static/js/main.cd0d561c.chunk.js",
+    "main.js.map": "/18_react_employee/static/js/main.cd0d561c.chunk.js.map",
+    "runtime-main.js": "/18_react_employee/static/js/runtime-main.c3fdcd28.js",
+    "runtime-main.js.map": "/18_react_employee/static/js/runtime-main.c3fdcd28.js.map",
+    "static/js/2.659824ef.chunk.js": "/18_react_employee/static/js/2.659824ef.chunk.js",
+    "static/js/2.659824ef.chunk.js.map": "/18_react_employee/static/js/2.659824ef.chunk.js.map",
+    "index.html": "/18_react_employee/index.html",
+    "static/css/main.cf085d1b.chunk.css.map": "/18_react_employee/static/css/main.cf085d1b.chunk.css.map",
+    "static/js/2.659824ef.chunk.js.LICENSE.txt": "/18_react_employee/static/js/2.659824ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1b7ecd82.js",
+    "static/js/runtime-main.c3fdcd28.js",
     "static/js/2.659824ef.chunk.js",
     "static/css/main.cf085d1b.chunk.css",
     "static/js/main.cd0d561c.chunk.js"
