@@ -1,7 +1,7 @@
 {
   "name": "18_react_employee",
   "version": "0.1.0",
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://henryrjung.github.io/18_react_employee/",
   "private": true,
   "dependencies": {
     "@fluentui/react": "^7.157.2",
