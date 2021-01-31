@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/header/index';
 import Table from './components/table/Table';
 import Container from './components/container/Container';
+import Search from './components/search/Search';
 import './App.css'
 import getEmployees from './utils/API.js';
 
@@ -9,7 +10,7 @@ import getEmployees from './utils/API.js';
 
 class App extends Component {
   state = {
-    employees: []
+    employees: [],
   };
 
   componentDidMount() {
@@ -29,14 +30,22 @@ class App extends Component {
       employee.name = fullName;
       employee.email = employee.email;
     });
-    this.setState({ employees: employees.data.results });
+    this.setState({ employees: employees.data.results, filterEmployees: employees.data.result });
+  };
+
+  handleSearchInput = (event) => {
+    const { value } = event.target;
+    const employees = this.state.employees.filter((employee) =>
+      employee.name.toLowerCase().includes(value)
+    );
+    this.setState({ search: value, employees });
   };
 
   render() {
     return (
       <div className='app'>
         <Header />
-        <Container>
+        <Container handleSearchInput={this.handleSearchInput} >
           {this.state.employees.map((employee, id) => {
             return (
               <Table

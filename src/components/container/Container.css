@@ -66,3 +66,20 @@
     justify-self: center;
     justify-content: center;
   }
+
+  .search{
+    grid-column: 1;
+    margin-top: 25px;
+    align-items: center;
+    background-color:  #fff;
+    border-radius: 290486px;
+    display: inline-flex;
+    font-size: 1.25rem;
+    height: 2em;
+    justify-content: center;
+    margin-right: 1.5rem;
+    min-width: 2.5em;
+    padding: .25rem .5rem;
+    text-align: left;
+    vertical-align: top;
+  }
